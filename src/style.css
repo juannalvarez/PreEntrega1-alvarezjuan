@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Lexend+Tera:wght@500;600;700;800;900&family=Lexend:wght@200&display=swap');
 
 .navBarStyle {
-  position: fixed !important;; 
-  top:0 !important;
+  position: fixed !important;
+  ;
+  top: 0 !important;
   margin-top: 0;
   margin-bottom: 0;
   width: 100%;
@@ -22,7 +23,7 @@
 }
 
 
-.subtitulo{
+.subtitulo {
   font-family: "lexend", sans-serif;
   font-size: 2.3rem;
   font-weight: 400;
@@ -31,7 +32,7 @@
   transition: all 0.5s;
 }
 
-.titulo{
+.titulo {
   font-family: "IM Fell English SC", sans-serif;
   font-size: 48px;
   font-weight: bold;
@@ -50,7 +51,42 @@
   top: 100px;
 }
 
-.copa{
-  z-index: 1;
+.copa {
   position: relative;
+
+}
+
+.copa img {
+  width: 45px;
+}
+
+.btn-primary{
+  background-color: brown !important;
+  border: brown !important;
+}
+.contadorProducto {
+  z-index: 1;
+  font-weight: bolder;
+  position: absolute;
+  display: flex;
+  background-color: red;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  top: -10px;
+  left: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-content: space-between !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  position: relative !important;
+  top: 130px !important;
+  padding-bottom: 10px;
 }

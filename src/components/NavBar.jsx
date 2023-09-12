@@ -17,7 +17,6 @@ function NavBar() {
                         <Nav.Link href=''>PRODUCTOS</Nav.Link>
                         <Nav.Link href='#carrito'>CARRITO</Nav.Link>
                         <CartWidget/>
-                        <p className='contadorProducto'>8</p>
                     </Nav>
                 </Container>
             </Navbar>
